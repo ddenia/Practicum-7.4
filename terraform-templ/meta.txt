@@ -1,0 +1,8 @@
+#cloud-config
+users:
+  - name: user
+    groups: sudo
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    ssh-authorized-keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCnW+Nsdy8HKps1oSG8W5mCi9qMDs6G+exXFoyEXu59q9rBDVUJEaf9UTkL4DhWbwaiOxlvXXRWmgXm741JF9b5E+nJR4evmGNIdI7WWSMxVHIGq0AnO2dWhG4HWdTojAy6u+b/xvg5oPOAfMWATivtBOo5Ilsm7Di9WQhZUwGBXGLmDayQ8zWW2FZcGmbZKHOTi+AcN8yZ6LrvhAlTW6peWW6pUYEqCumB5zBHv5Xb0tDcytLf+KIqez57K05p34txpDuTxGIxbTsajAgP9WoKWaSf1MK6Y4O18oZPOne2wws1aXb7kAWzcsWCBa6XG9i2PKfVXXAN3smfVOMrRAdr root@ddenia-devops
